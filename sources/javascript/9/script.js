@@ -5,7 +5,7 @@ function draw(predictions) {
   if (predictions.length > 0) {
 
     if (predictions.length > 0) {
-      console.log(predictions);
+      ///console.log(predictions)
       let close = predictions.filter((item) => item.label === "closed");
       if (close.length >= 1) {
         let xClose = close[0].bbox[0];

@@ -1,7 +1,7 @@
 let i = 0; // Index for characters in a string
 let arrIndex = 0; // Index for strings in the array
 let txtArray = ["Unica77", "Brown", "Ruder", "Geigy Duplex", "Riforma Mono"]; // Array of strings
-let speed = 120; // Typing speed
+let speed = 10; // Typing speed
 
 function typeWriter() {
   //if the index is less than the length of the string

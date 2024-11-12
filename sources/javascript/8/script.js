@@ -22,8 +22,12 @@ function draw(predictions) {
       document.getElementById("height").innerHTML = heightFace;
 
       //face position
-      weight = rangeMap(xFace, 0, 415, 32, 228);
-      textArea.style.fontVariationSettings = `'wght' ${weight}`;
+      // weight = rangeMap(xFace, 0, 521, 32, 228);
+
+      //proxomity
+      weight = rangeMap(widthFace, 70, 215, 32, 228);
+
+      textArea.style.fontVariationSettings = `'slnt' ${weight}`;
 
     }
   }

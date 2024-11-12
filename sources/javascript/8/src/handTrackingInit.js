@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const video = document.getElementById("myvideo");
     const canvas = document.getElementById("canvas");
     const context = canvas.getContext("2d");
-    let trackButton = document.getElementById("trackbutton");
-    let updateNote = document.getElementById("updatenote");
+    // let trackButton = document.getElementById("trackbutton");
+    // let updateNote = document.getElementById("updatenote");
     
     let isVideo = false;
     let model = null;

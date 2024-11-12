@@ -4,7 +4,6 @@ let weight = null;
 function update() {
   requestAnimationFrame(update);
   value.innerHTML = sound;
-
   weight = rangeMap(sound, 0, 80, 32, 228);
   textArea.style.fontVariationSettings = `'wght' ${weight}`;
 }
