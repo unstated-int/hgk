@@ -2,7 +2,7 @@ html,
 body {
   font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .container {
@@ -138,10 +138,18 @@ li:before {
 }
 
 .color-5 a:hover {
+    color: black;
+  }
+
+  .color-none {
+    opacity: 0.3;
+  }
+
+.color-7,
+.color-7 a {
+  color:rgb(208, 0, 255);
+}
+
+.color-7 a:hover {
   color: black;
 }
-
-.color-none {
-  opacity: 0.3;
-}
-
