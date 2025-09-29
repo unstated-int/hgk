@@ -11,6 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
         if (i >= alphabet.length) {
             i = 0;
         }
-    }, 500);
+    }, 1000);
 
 });
