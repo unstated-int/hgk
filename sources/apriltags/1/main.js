@@ -49,10 +49,9 @@ function loop() {
   if (getDetections().length > 0) {
 
     const detection = getDetections().find((det) => det.id === 0);
+
     if (detection) {
-      console.log("detection:", detection);
       const angle = angle2DFromCorners(detection);
-      console.log("angle:", angle);
       const specimen = document.getElementById("specimen");
       // specimen.style.transform = `rotate(${angle}deg)`;
 
@@ -61,7 +60,7 @@ function loop() {
       specimen.style.fontVariationSettings = `'wght' ${newWeight}`;
       //letter spacing in relation of degree
       const newLetterSpacing = 0 + (angle / 180) * 10;
-      specimen.style.letterSpacing = `${newLetterSpacing}px`;
+      // specimen.style.letterSpacing = `${newLetterSpacing}px`;
     }
   }
 }

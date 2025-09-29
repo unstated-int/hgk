@@ -41,6 +41,9 @@ function angle2DFromCorners(det) {
   return (Math.atan2(dy, dx) * 180) / Math.PI; // gradi
 }
 
+setTimeout(() => {
+  document.getElementById("specimen").innerHTML = "PIZZA";
+}, 4000);
 function loop() {
   requestAnimationFrame(loop);
 

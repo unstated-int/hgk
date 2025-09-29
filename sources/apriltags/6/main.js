@@ -48,7 +48,7 @@ function processFrame() {
   // Draw contours and angle
   for (let i = 0; i < contours.size(); i++) {
     let cnt = contours.get(i);
-    if (cnt.size().height < 100) continue;
+    if (cnt.size().height < 1) continue;
 
     let rotatedRect = cv.minAreaRect(cnt);
     let vertices = cv.RotatedRect.points(rotatedRect);
