@@ -1,7 +1,7 @@
 /** import fonts **/
 @font-face {
-  font-family: 'HGKBUnica77VIPBeta';
-  src: url('fonts/HGKBUnica77VIPBeta.woff2') format('woff2');
+  font-family: 'HGKUnica77VIPBeta';
+  src: url('fonts/HGKUnica77VIPBeta.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -9,7 +9,7 @@
 html, body {
   padding: 0;
   margin: 0;
-  font-family: 'HGKBUnica77VIPBeta', sans-serif;
+  font-family: 'HGKUnica77VIPBeta', sans-serif;
   font-variation-settings: 'wght' 150;
 }
 

@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "HGKBUnica77VIPBeta";
-  src: url("fonts/HGKBUnica77VIPBeta.woff2") format("woff2");
+  font-family: "HGKUnica77VIPBeta";
+  src: url("fonts/HGKUnica77VIPBeta.woff2") format("woff2");
 }
 
 
@@ -39,7 +39,7 @@ html {
   justify-content: center;
   align-items: center;
   overflow: auto;
-  font-family: "HGKBUnica77VIPBeta";
+  font-family: "HGKUnica77VIPBeta";
   font-size: 10vw;
   white-space: nowrap;
 }

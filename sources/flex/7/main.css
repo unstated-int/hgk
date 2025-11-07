@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "HGKBUnica77";
-  src: url("assets/fonts/HGKBUnica77VIPBeta.woff2") format("woff2");
+  font-family: "HGKUnica77";
+  src: url("assets/fonts/HGKUnica77VIPBeta.woff2") format("woff2");
   font-weight: 1 1000; /* Range per variabilità */
   font-display: swap;
 }
@@ -13,7 +13,7 @@ body {
   align-items: center;
   height: 100vh;
   width: 100vw;
-  font-family: "HGKBUnica77";
+  font-family: "HGKUnica77";
 }
 
 .grid {
@@ -121,7 +121,7 @@ body {
   line-height: 130%;
   color: #fff;
   text-align: center;
-  font-family: "HGKBUnica77";
+  font-family: "HGKUnica77";
   font-variation-settings: "wght" 50, "wdth" 100, "slnt" 0;
 }
 
@@ -132,7 +132,7 @@ body {
   line-height: 130%;
   color: #fff;
   text-align: center;
-  font-family: "HGKBUnica77";
+  font-family: "HGKUnica77";
   font-variation-settings: "wght" 100, "wdth" 100, "slnt" 0;
 }
 #grid-item-2-3-text {
@@ -142,7 +142,7 @@ body {
   line-height: 130%;
   color: #fff;
   text-align: center;
-  font-family: "HGKBUnica77";
+  font-family: "HGKUnica77";
   font-variation-settings: "wght" 500, "wdth" 100, "slnt" 24;
   animation: change-slnt 1s ease-in-out infinite alternate;
 }

@@ -51,6 +51,13 @@ async function process_frame() {
   const canvas = window.canvas;             // come nel tuo codice che funziona
   const video  = window.video;              // come nel tuo codice che funziona
 
+    // 🚨 Protezione: se il video non è pronto, rimanda
+    if (!video || !video.videoWidth || !video.videoHeight) {
+      // riprova tra un frame
+      window.requestAnimationFrame(process_frame);
+      return;
+    }
+    
   // ⬇️ [AGGIUNTA] canvas a colori
   const canvasColor = document.getElementById("out_canvas_colors");
   const ctxColor = canvasColor ? canvasColor.getContext("2d") : null;

@@ -1,7 +1,7 @@
 
 @font-face {
-  font-family: "HGKBUnica77VIPBeta";
-  src: url("fonts/HGKBUnica77VIPBeta.woff2") format("woff2");
+  font-family: "HGKUnica77VIPBeta";
+  src: url("fonts/HGKUnica77VIPBeta.woff2") format("woff2");
 }
 
 .main-description {
@@ -20,7 +20,7 @@ html {
 }
 
 #text {
-  font-family: "HGKBUnica77VIPBeta", monospace;
+  font-family: "HGKUnica77VIPBeta", monospace;
   width: 100%;
   font-size: 10vw;
   display: flex;

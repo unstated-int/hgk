@@ -23,7 +23,7 @@ body {
   cursor: pointer;
   background-color: var(--color-primary);
   transform: translate(-50%, -50%) scale(1);
-  /* transform-origin: center; */
+  transform-origin: center;
   transition: background-color 500ms ease-in-out,
     border-radius 500ms ease-in-out, transform 1s ease-in-out 500ms;
 }

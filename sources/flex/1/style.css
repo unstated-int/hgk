@@ -1,7 +1,7 @@
 /** flex-container **/
 .flex-container {
   display: flex;
-  gap: 10px;
+  gap: 100px;
   background-color: var(--color-secondary);
   border-radius: var(--border-radius);
   padding: 10px;
@@ -14,7 +14,7 @@
   justify-content: flex-start;
 }
 
-.container-center {
+.pizza {
   justify-content: center;
 }
 

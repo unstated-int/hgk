@@ -1,7 +1,7 @@
 /** import fonts **/
 @font-face {
-  font-family: 'HGKBUnica77VIPBeta';
-  src: url('fonts/HGKBUnica77VIPBeta.woff2') format('woff2');
+  font-family: 'HGKUnica77VIPBeta';
+  src: url('fonts/HGKUnica77VIPBeta.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -38,17 +38,17 @@ h1, h2, h3, h4, h5, h6, p, em, strong {
 }
 
 .font-regular {
-  font-family: 'HGKBUnica77VIPBeta';
+  font-family: 'HGKUnica77VIPBeta';
   font-variation-settings: 'wght' 92;
 }
 
 .font-bold {
-  font-family: 'HGKBUnica77VIPBeta';
+  font-family: 'HGKUnica77VIPBeta';
   font-variation-settings: 'wght' 850;
 }
 
 .font-italic {
-  font-family: 'HGKBUnica77VIPBeta';
+  font-family: 'HGKUnica77VIPBeta';
   font-variation-settings: 'slnt' 24;
 
 }

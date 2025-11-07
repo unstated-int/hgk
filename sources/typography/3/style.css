@@ -1,7 +1,7 @@
 /** import fonts **/
 @font-face {
-  font-family: 'HGKBBrownLLVIP-Collection';
-  src: url('fonts/HGKBBrownLLVIP-Collection.woff2') format('woff2');
+  font-family: 'HGKBrownLLVIP-Collection';
+  src: url('fonts/HGKBrownLLVIP-Collection.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -22,21 +22,21 @@ h1, h2, h3, h4, h5, h6, p, em, strong {
 }
 
 .font-regular {
-  /* font-family: 'HGKBBrownLLVIP-Collection'; */
+  /* font-family: 'HGKBrownLLVIP-Collection'; */
 }
 
 .font-bold {
-  font-family: 'HGKBBrownLLVIP-Collection';
+  font-family: 'HGKBrownLLVIP-Collection';
   font-variation-settings: 'wght' 850, 'slnt' -10, 'wdth' 75;
 }
 
 .font-italic {
-  font-family: 'HGKBBrownLLVIP-Collection';
+  font-family: 'HGKBrownLLVIP-Collection';
   font-variation-settings: 'slnt' -10;
 }
 
 .font-back-italic {
-  font-family: 'HGKBBrownLLVIP-Collection';
+  font-family: 'HGKBrownLLVIP-Collection';
   font-variation-settings: 'slnt' 10;
 }
 

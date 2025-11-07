@@ -41,6 +41,12 @@ function angle2DFromCorners(det) {
   return (Math.atan2(dy, dx) * 180) / Math.PI; // gradi
 }
 
+function remap(value, inMin, inMax, outMin, outMax) {
+  return ((value - inMin) * (outMax - outMin)) / (inMax - inMin) + outMin;
+}
+
+
+
 function loop() {
   requestAnimationFrame(loop);
 
@@ -50,7 +56,8 @@ function loop() {
 
   detections.forEach((det) => {
     const { id, center } = det;
-    const line = `ID: ${id} → x: ${center.x.toFixed(1)}, y: ${center.y.toFixed(
+    const resultX = remap(center.x, 350, 950, 0, 1920);
+    const line = `ID: ${id} → x: ${resultX}, y: ${center.y.toFixed(
       1
     )} deg: ${angle2DFromCorners(det).toFixed(1)} `;
     const p = document.createElement("div");
